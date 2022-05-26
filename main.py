@@ -14,8 +14,7 @@ class RunningCat(wx.adv.TaskBarIcon):
     
     def OnTimer(self, evt):
         self.currentImage = (self.currentImage + 1) % 5
-        self.SetIcon(wx.Icon(animal + "/" + mode + "_" + animal + "_"
-                            + str(self.currentImage) + ".ico"))
+        self.SetIcon(wx.Icon(f"{animal}/{mode}_{animal}_{str(self.currentImage)}.ico"))
 
 class MyFrame(wx.Frame):
     def __init__(self):
