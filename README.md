@@ -6,7 +6,7 @@
 
 ## Demo
 
-![](runcat_demo.gif)
+!![runcat_demo.gif](https://s2.loli.net/2022/05/29/45gpx7urbfdjB3W.gif)
 
 （这个是Github上原项目的Demo，效果是一样的就直接拿来用了）
 
